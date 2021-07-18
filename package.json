@@ -1,0 +1,36 @@
+{
+  "name": "pageintro",
+  "version": "0.1.0",
+  "description": "A simple jQuery tool for new feature introduction and step-by-step users guide for your website and project.",
+  "main": "lib/pageintro.common.js",
+  "dependencies": {
+    "core-js": "^3.4.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "node-sass": "^4.13.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:js": "webpack --mode production",
+    "build:css": "node-sass src/style.scss --output ./lib --output-style expanded",
+    "dist": "npm run build:js && npm run build:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:lc-soft/pageintro.js.git"
+  },
+  "keywords": [
+    "jquery",
+    "intro",
+    "guide"
+  ],
+  "author": "lc-soft (lc-soft@live.cn)",
+  "license": "MIT"
+}

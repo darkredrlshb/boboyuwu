@@ -1,6 +1,6 @@
 # pageintro.js
 
-A simple jQuery plugin for new feature introduction and step-by-step users guide for your website and project.
+A simple jQuery tool for new feature introduction and step-by-step users guide for your website and project.
 
 ![Demo screenshot](http://git.oschina.net/uploads/images/2017/0329/175626_f36068f0_568.gif "Demo screenshot")
 
