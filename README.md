@@ -6,17 +6,15 @@ A simple jQuery tool for new feature introduction and step-by-step users guide f
 
 ## Build
 
-You need to install compass and coffee-script：
+Install dependencies：
 
-	gem install compass
-	npm install -g coffee-script
+	npm install
 
-After installation, you need to run the following command to compile the source files:
+Build:
 
-	compass compile
-	coffee -o dist -c src/pageintro.coffee
+	npm run dist
 
-At last, you can find the output files in the `dist` directory.
+At last, you can find the output files in the `lib` directory.
 
 ## Example
 

@@ -6,17 +6,15 @@
 
 ## 编译方法
 
-你需要先安装 compass 和 coffee-script：
+先安装依赖包：
 
-	gem install compass
-	npm install -g coffee-script
+	npm install
 
-然后运行以下命令编译源文件：
+构建：
 
-	compass compile
-	coffee -o dist -c src/pageintro.coffee
+	npm run build
 
-最后，你可以在 `dist` 目录下找到输出的文件
+最后，你可以在 `lib` 目录下找到输出的文件
 
 ## 示例
 
